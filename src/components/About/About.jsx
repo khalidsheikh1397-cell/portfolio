@@ -7,13 +7,11 @@ const About = () => {
   return (
     <section
       id="about"
-     className="py-4 px-[7vw] md:px-[7vw] lg:px-[20vw] font-sans mt-0 md:mt-0 lg:mt-0"
+      className="py-4 px-[7vw] md:px-[7vw] lg:px-[20vw] font-sans mt-0 md:mt-0 lg:mt-0"
     >
       <div className="flex flex-col-reverse md:flex-row justify-between items-center">
-        
         {/* Left Side */}
         <div className="md:w-1/2 text-center md:text-left mt-8 md:mt-0">
-          
           <h1 className="text-3xl sm:text-4xl md:text-5xl font-bold text-white mb-2 leading-tight">
             Hi, I am
           </h1>
@@ -26,12 +24,7 @@ const About = () => {
             <span className="text-white">I am a </span>
 
             <ReactTypingEffect
-              text={[
-                "Frontend Developer",
-                "Web Developer",
-                "UI Designer",
-                "Coder",
-              ]}
+              text={["MERN Developer", "Web Developer", "UI Designer", "Coder"]}
               speed={100}
               eraseSpeed={50}
               typingDelay={500}
@@ -44,22 +37,21 @@ const About = () => {
 
           <p className="text-base sm:text-lg md:text-lg text-gray-400 mb-10 mt-8 leading-relaxed">
             Frontend Developer skilled in HTML, CSS, JavaScript (ES6+),
-            React.js, and Tailwind CSS. Passionate about building responsive
-            and user-friendly web applications with clean, efficient, and
+            React.js, and Tailwind CSS. Passionate about building responsive and
+            user-friendly web applications with clean, efficient, and
             maintainable code. Always eager to learn new technologies and
             improve development skills.
           </p>
 
           {/* Resume Button */}
           <a
-            href="/resume.pdf"
+            href="/resume.png.pdf"
             target="_blank"
             rel="noopener noreferrer"
             className="inline-block text-white py-3 px-8 rounded-full mt-5 text-lg font-bold transition duration-300 transform hover:scale-105"
             style={{
               background: "linear-gradient(90deg, #8245ec, #a855f7)",
-              boxShadow:
-                "0 0 2px #8245ec, 0 0 2px #8245ec, 0 0 40px #8245ec",
+              boxShadow: "0 0 2px #8245ec, 0 0 2px #8245ec, 0 0 40px #8245ec",
             }}
           >
             DOWNLOAD CV
@@ -86,7 +78,6 @@ const About = () => {
             </Tilt>
           </div>
         </div>
-
       </div>
     </section>
   );
