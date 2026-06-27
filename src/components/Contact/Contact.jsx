@@ -71,12 +71,12 @@ const Contact = () => {
 
         <form ref={form} onSubmit={sendEmail} className="mt-4 flex flex-col space-y-4">
           <input
-            type="email"
-            name="user_email"
-            placeholder="Your Email"
-            required
-            className="w-full p-3 rounded-md bg-[#131025] text-white border border-gray-600 focus:outline-none focus:border-purple-500"
-          />
+        type="email"
+        name="reply_to"
+         placeholder="Your Email"
+         required
+        className="w-full p-3 rounded-md bg-[#131025] text-white border border-gray-600 focus:outline-none focus:border-purple-500"
+            />
           <input
             type="text"
             name="user_name"
